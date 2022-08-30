@@ -27,15 +27,37 @@
                    staticMapWrapper = document.getElementById("staticMap")
                    staticMapWrapper.src = "pic/ua_shelling_zone_render-min.png"
                } else if (response.index == 6) {
+
                    map.flyTo([46.70950052897342, 32.41241455078126], 12)
                } else if (response.index == 8) {
-                   map.flyTo([46.748315425279316, 32.30854868888856], 17);
+                   const screenWidth = window.screen.width
+                   if (screenWidth < 1023) {
+                       map.flyTo([46.748315425279316, 32.30854868888856], 16);
+                   } else {
+                       map.flyTo([46.748315425279316, 32.30854868888856], 17);
+                   }
                } else if (response.index == 9) {
-                   map.flyTo([46.7370444808237, 32.24112610244752], 16);
+                   const screenWidth = window.screen.width
+                   if (screenWidth < 1023) {
+                       map.flyTo([46.7370444808237, 32.24112610244752], 15);
+                   } else {
+                       map.flyTo([46.7370444808237, 32.24112610244752], 16);
+                   }
+
                } else if (response.index == 10) {
-                   map.flyTo([46.73540474073094, 32.268884181976325], 17);
+                   const screenWidth = window.screen.width
+                   if (screenWidth < 1023) {
+                       map.flyTo([46.73540474073094, 32.268884181976325], 16);
+                   } else {
+                       map.flyTo([46.73540474073094, 32.268884181976325], 17);
+                   }
                } else if (response.index == 11) {
-                   map.flyTo([46.96941802389087, 32.64308452606202], 16); //
+                   const screenWidth = window.screen.width
+                   if (screenWidth < 1023) {
+                       map.flyTo([46.96941802389087, 32.64308452606202], 15); //
+                   } else {
+                       map.flyTo([46.96941802389087, 32.64308452606202], 16); //
+                   }
                } else if (response.index == 12) {
                    map.flyTo([46.76889554304747, 32.89696097373963], 17); //
                } else if (response.index == 13) {
