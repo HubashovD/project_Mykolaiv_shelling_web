@@ -38,7 +38,7 @@
     }
     #title-wrapper {
         margin-left: 0 !important;
-        margin-top: 25% !important;
+        margin-top: 30% !important;
     }
     #title-wrapper h1 {
         width: 80% !important;
@@ -59,9 +59,10 @@
         font-size: 20px !important;
         font-family: "proxima-semi";
         margin: auto;
-        text-align: justify;
-        margin-left: 5%;
-        margin-right: 5%;
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 10%;
+        line-height: 1.5;
     }
     .simple-text {
         width: 70% !important;
@@ -370,7 +371,7 @@
 }
 
 #lead {
-    width: 50%;
+    width: 60%;
     font-size: 24px;
     font-family: "proxima-semi";
     margin: auto;
@@ -410,6 +411,10 @@ a:link {
     font-size: 50px;
     font-family: 'CHARTERC-bold';
     margin-left: 25%;
+}
+
+#scrolly {
+    margin-top: 5%;
 }
 
 #staticMapsBlock {
