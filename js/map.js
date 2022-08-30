@@ -129,7 +129,7 @@ fetch("artilerry position.geojson")
 
 
 var shellingTrianglesStyles = {
-    "color": "#f3a6b2",
+    "color": "black",
     "opacity": 0.9,
     "stroke-width": 1,
 }
@@ -141,7 +141,7 @@ var shelling_points = {
 }
 
 var shellingTriangle2 = {
-    "color": "#f3a6b2",
+    "color": "black",
     "opacity": 0.9,
     "stroke-width": 1,
 }

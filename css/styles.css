@@ -326,7 +326,7 @@
 
 #cover {
     object-fit: cover;
-    /* width: 100%; */
+    width: 100%;
     height: 100%;
     position: absolute;
     background-repeat: no-repeat;
@@ -337,7 +337,7 @@
 #cover-wrapper {
     width: 100%;
     height: 100%;
-    opacity: 0.3;
+    opacity: 0.5;
     background-color: black;
     position: absolute;
 }
@@ -366,11 +366,11 @@
     font-size: 40px;
     margin: auto;
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
 }
 
 #lead {
-    width: 60%;
+    width: 50%;
     font-size: 24px;
     font-family: "proxima-semi";
     margin: auto;
@@ -400,9 +400,10 @@ a:link {
     width: 50%;
     margin: auto;
     margin-top: 15px;
-    font: 30px "proxima-medium";
-    color: #555;
-    text-align: justify;
+    font: 24px "proxima-medium";
+    color: #000000;
+    text-align: left;
+    line-height: 35px;
 }
 
 .h3-header {
@@ -445,7 +446,7 @@ a:link {
     width: 40%;
     position: relative;
     z-index: 999;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .6);
 }
 
 #text-wrapper {
@@ -496,13 +497,13 @@ a:link {
 }
 
 .step .blackP {
-    color: #555 !important;
+    color: #000000 !important;
 }
 
 .step p {
-    font-size: 30px;
+    font-size: 24px;
     font-family: "proxima-medium";
-    text-align: justify;
+    text-align: left;
     margin-left: 15%;
     margin-right: 5%;
     /* background-color: white; */
@@ -511,6 +512,7 @@ a:link {
     padding-top: 50px;
     padding-bottom: 50px;
     color: white;
+    line-height: 1.5;
 }
 
 #barchart {
@@ -587,14 +589,27 @@ a:link {
 
 .shellingTriangle {
     opacity: 0;
+    stroke-opacity: 1;
+    stroke-width: 2;
+    stroke-linecap: square;
+    stroke-linejoin: miter;
+    fill: #000000;
+    fill-opacity: 0;
 }
 
 .shelling-points {
     opacity: 0;
+    fill-opacity: 0;
 }
 
 .shelling-triangle-2 {
     opacity: 0;
+    stroke-opacity: 1;
+    stroke-width: 2;
+    stroke-linecap: square;
+    stroke-linejoin: miter;
+    fill: #000000;
+    fill-opacity: 0;
 }
 
 .donate-us {
