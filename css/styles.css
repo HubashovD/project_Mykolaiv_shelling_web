@@ -127,9 +127,21 @@
         align-items: center !important;
         margin-left: 5vw !important;
     }
+    .rubrics-container {
+        display: none !important;
+    }
+    #menu-wrapper {
+        display: block !important;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 1023px) {
+    .rubrics-container {
+        display: none !important;
+    }
+    #menu-wrapper {
+        display: block !important;
+    }
     #main-logo {
         width: 20% !important;
     }
@@ -238,13 +250,6 @@
     position: absolute;
 }
 
-#main-logo {
-    position: absolute;
-    margin-left: 3vw;
-    margin-top: 3vh;
-    width: 15vw;
-}
-
 .share-btn {
     font-family: 'Noto Sans', sans-serif;
     letter-spacing: 1px;
@@ -301,7 +306,6 @@
 
 #socio-icons {
     margin-left: 3vw;
-    margin-top: 7vh;
     font-family: 'Roboto Mono', monospace;
     display: flex;
     -webkit-box-pack: start;
@@ -333,6 +337,43 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+
+#menu-wrapper {
+    grid-template-columns: 1fr 6fr;
+    width: 100%;
+    display: grid;
+}
+
+#main-logo {
+    grid-column: 1;
+    position: relative;
+    margin-left: 3vw;
+    margin-top: 2vh;
+    width: 10vw;
+}
+
+.rubrics-container {
+    grid-column: 2;
+    margin-top: 1%;
+    position: relative;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.rubric {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: white;
+    margin: auto;
+}
+
+.rubric a span {
+    color: white !important;
 }
 
 #cover-wrapper {
