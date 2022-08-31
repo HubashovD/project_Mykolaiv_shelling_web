@@ -486,6 +486,10 @@ a:link {
     height: fit-content;
 }
 
+.step h5 {
+    display: none;
+}
+
 .h4-header {
     /* background-color: white; */
     font-family: "proxima-bold";
